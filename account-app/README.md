@@ -28,15 +28,15 @@ Then you can access these endpoints.
 
 List accounts:
 ```
-GET: http://wjs-imac.viasat.nds.com:9090/api/account
+GET: http://localhost:9090/api/account
 ```
 Get account by ID:
 ```
-GET: http://wjs-imac.viasat.nds.com:9090/api/account/{accountID}
+GET: http://localhost:9090/api/account/{accountID}
 ```
 Create account:
 ```
-POST: http://wjs-imac.viasat.nds.com:9090/api/account
+POST: http://localhost:9090/api/account
 
 request body:
 {
