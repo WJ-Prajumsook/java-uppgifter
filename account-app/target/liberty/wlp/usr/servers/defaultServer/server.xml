@@ -1,0 +1,13 @@
+<server sescription="Account server">
+
+    <featureManager>
+        <feature>microProfile-4.0</feature>
+    </featureManager>
+
+    <httpEndpoint host="*"
+                  httpPort="9090"
+                  id="defaultHttpEndpoint"/>
+
+    <webApplication id="account-app" location="account-app.war" name="account-app" contextRoot="/" />
+
+</server>
